@@ -8,6 +8,6 @@ router.get('/', (req, res) => {
   res.send('hello tdd');
 });
 
-router.post('/signup', Users.signup);
+// router.post('/signup', Users.signup);
 
 export default router;
